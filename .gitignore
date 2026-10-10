@@ -1,0 +1,32 @@
+
+# Python virtual environments
+seg_00/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.dcm
+
+# Dataset directory
+data/
+
+# Model weights and outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+outputs/
+runs/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
